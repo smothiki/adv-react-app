@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
+import MovieManager from "./components/movieManager"
 
 class App extends Component {
+
+
   render() {
     return (
-      <main className="container">
-        <h1>hello world</h1>
-      </main>
+      <React.Fragment>
+        <MovieManager />
+      </React.Fragment >
     );
   }
 }
